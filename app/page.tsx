@@ -1,3 +1,13 @@
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
+import Skills from "@/components/skills";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Hero />
+      <Skills />
+      <Projects />
+    </div>
+  );
 }
